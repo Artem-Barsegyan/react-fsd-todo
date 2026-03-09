@@ -1,3 +1,5 @@
+[🌐 **Рабочая версия**](https://react-fsd-todo.vercel.app/)
+
 ## react-fsd-todo
 
 **Это мой первый проект, построенный по методологии Feature-Sliced Design.**  
