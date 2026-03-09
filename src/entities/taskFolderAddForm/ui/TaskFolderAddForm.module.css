@@ -1,0 +1,81 @@
+.taskFolderAddFormWrapper {
+  width: 100%;
+  min-width: 236px;
+  position: relative;
+}
+
+.taskFolderAddForm {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+
+  input {
+    width: 100%;
+    border: 1px solid rgba(239, 239, 239, 1);
+    border-radius: 4px;
+    padding: 8px 12px;
+
+    &::placeholder {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 17px;
+      letter-spacing: 0.15px;
+      color: rgba(199, 199, 199, 1);
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  > span {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+  }
+}
+
+.taskFolderColors {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &.activeColor {
+      border: 2px solid rgba(82, 82, 82, 1);
+    }
+  }
+}
+
+.taskFolderBtn {
+  min-width: 100%;
+  height: 36px;
+  color: #fff;
+  background-color: #4dd599;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  &:active {
+    background-color: #5eb78f;
+  }
+}
+
+@media (max-width: 340px) {
+  .taskFolderAddForm {
+    left: -25px;
+  }
+}

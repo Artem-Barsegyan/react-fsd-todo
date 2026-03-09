@@ -1,0 +1,39 @@
+.notFound {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 15px;
+
+  h1 {
+    color: rgba(201, 209, 211, 1);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+}
+
+@media (max-width: 600px) {
+  .notFound {
+    h1 {
+      font-size: 28px;
+    }
+  }
+}
+
+@media (max-width: 486px) {
+  .notFound {
+    h1 {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .notFound {
+    h1 {
+      font-size: 16px;
+    }
+  }
+}
